@@ -1,4 +1,13 @@
-#press command s when done to save the file, runnign the file will create a CAD.stl file in the same directory as this file. You can open it in a 3D viewer to see the cube in bamboo studio. You can also import it into a slicer to print it on a 3D printer."
+#press command s when done to save the file,runnign the file will create a CAD.stl file in the same directory as this file.
+# You can open it in a 3D viewer to see the cube in bamboo studio. 
+# You can also import it into a slicer to print it on a 3D printer. 
+# each time a CAD.stl file is created go into file editor, make a copy, and rename it,
+# that way your cubes won't overwrite each other. 
+# You can also change the name of the file in the code below, 
+# but make sure to keep the .stl extension. each other time you run the code, 
+# it will overwrite the CAD.stl file with the new dimensions. 
+# You can also change the name of the file in the code below, but make sure to keep the .stl extension. 
+# each other time you run the code, it will overwrite the CAD.stl file with the new dimensions."
 
 from math import sqrt
 def write_cube(path, width, depth, height):
