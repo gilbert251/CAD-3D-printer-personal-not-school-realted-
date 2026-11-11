@@ -67,5 +67,10 @@ def write_cube(path, width, depth, height):
 
 
 if __name__ == "__main__":
-    write_cube("CAD.stl", 25.0, 25.0, 25.0)
-    print("Success! Updated STL automatically!")
+    print("Enter dimensions for your 3D model:")
+    w = float(input("Width (mm): "))
+    d = float(input("Depth (mm): "))
+    h = float(input("Height (mm): "))
+
+    write_cube("CAD.stl", w, d, h)
+    print("Success! CAD.stl updated with your custom dimensions.")
