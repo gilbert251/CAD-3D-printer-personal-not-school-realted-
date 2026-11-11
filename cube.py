@@ -1,3 +1,4 @@
+#press command s when done to save the file
 from math import sqrt
 
 
@@ -66,8 +67,8 @@ def write_cube(path, width, depth, height):
 
 
 if __name__ == "__main__":
-    write_cube("CAD.stl", 20.0, 20.0, 20.0)
-    print("Success! CAD.stl now has 3D data.")
+    write_cube("CAD.stl", 25.0, 25.0, 25.0)
+    print("Success! Updated STL automatically!")
 
 
 if __name__ == "__main__":
