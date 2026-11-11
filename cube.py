@@ -1,5 +1,4 @@
-#press command s when done to save the file, runnign the file will create a CAD.stl file in the same directory as this file. You can open it in a 3D viewer to see the cube in bamboo studio. You can also import it into a slicer to print it on a 3D printer. The cube is 25mm x 25mm x 25mm, which is a good size for calibration.
-from math import sqrt
+#press command s when done to save the file, runnign the file will create a CAD.stl file in the same directory as this file. You can open it in a 3D viewer to see the cube in bamboo studio. You can also import it into a slicer to print it on a 3D printer."
 
 
 def write_cube(path, width, depth, height):
